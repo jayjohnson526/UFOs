@@ -2,7 +2,7 @@
 const tableData = data;
 
 // Reference the HTML table using d3
-var tbody = d3.select("tobdy");
+var tbody = d3.select("tbody");
 
 // Define a function to create the UFO data table
 function buildTable(data) {
@@ -27,7 +27,7 @@ function buildTable(data) {
 function handleClick() {
     // Grab the datetime value from the filter
     let date = d3.select('#datetime').property('value');
-    let filterdData = tableData;
+    let filteredData = tableData;
 
     // Check to see if a date was entered and filter the 
     // data using the date
@@ -35,17 +35,16 @@ function handleClick() {
         // Apply 'filter' to the table data to only keep the
         // rows where the 'datetime' value matches the filter value
         filteredData = filteredData.filter(row => row.datetime === date);
-    };
+    }
 
     // Rebuild the table using the filtered data
     // @Note: If no date was entered, the filteredData will
     // just be the original tableData
     buildTable(filteredData);
-};
+}
 
 // Tell D3 to 'listen' for a user click
 d3.selectAll("filter-btn").on("click", handleClick);
 
 // Build the final table when the page loads
 buildTable(tableData);
-
