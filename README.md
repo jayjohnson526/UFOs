@@ -35,4 +35,4 @@ For a more comprehensive and up-to-date analysis, we could write a script that s
 
 We could also create a heat map from this data so that users can visualize where these sightings are occuring as well as the frequency of occurrences, like the website below:
 
-![arcgis.com - UFO Sightings Map](https://www.arcgis.com/apps/webappviewer/index.html?id=ddda71d5211f47e782b12f3f8d06246e)
+[arcgis.com - UFO Sightings Map](https://www.arcgis.com/apps/webappviewer/index.html?id=ddda71d5211f47e782b12f3f8d06246e)
