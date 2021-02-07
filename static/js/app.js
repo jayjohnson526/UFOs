@@ -44,7 +44,7 @@ function handleClick() {
 }
 
 // Tell D3 to 'listen' for a user click
-d3.selectAll("filter-btn").on("click", handleClick);
+d3.selectAll("#filter-btn").on("click", handleClick);
 
 // Build the final table when the page loads
 buildTable(tableData);
