@@ -3,7 +3,7 @@
 Collecting UFO data and visualizing with JavaScript 
 
 ## Overview
-The goal of this project is to compile recorded UFO sightings in recent years from across North America so that users can analyze the data based on user defined criteria. To make the data user friendly and interactive, we've created a webpage that allows the user to filter sightings by city, state, country, and/or shape. Whether you're a believer or not, take a look at the data and draw your own conclusions. 
+The goal of this project is to compile UFO sightings in recent years from across North America so that users can analyze the data in one place. To make the data more user friendly and interactive, we've created a webpage that allows the user to filter sightings by city, state, country, and/or shape. Whether you're a believer or not, take a look at the data and draw your own conclusions. 
 
 ![](static/images/filters.png)
 
